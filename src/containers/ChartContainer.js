@@ -18,7 +18,9 @@ const ChartContainer = () => {
 
     return (
         <div>
+            <ChartSelect/>
             <ChartList songs={songs} />
+
         </div>
     );
 
